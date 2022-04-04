@@ -1,0 +1,12 @@
+{
+  "baseUrl": "http://localhost:3000",
+  "ignoreTestFiles": "**/2-advanced-examples/*",
+  "coverage": true,
+  "component": {
+    "componentFolder": "components",
+    "testFiles": "**/*.spec.ct.{js,ts,jsx,tsx}"
+  },
+  "e2e": {
+    "testFiles": "**/*.spec.{js,ts,jsx,tsx}"
+  }
+}
